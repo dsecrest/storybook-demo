@@ -1,0 +1,154 @@
+:root {
+  --badge-size-xs: 20px;
+  --badge-size-sm: 24px;
+  --badge-size-md: 32px;
+
+  --badge-xs-font-size: 12px;
+  --badge-xs-x-padding: 9px;
+  --badge-sm-font-size: 14px;
+  --badge-sm-x-padding: 12px;
+  --badge-md-font-size: 16px;
+  --badge-md-x-padding: 14px;
+
+  --badge-default-outline-border-color: #9E9E9E;
+  --badge-default-outline-text-color: #3D3D3D;
+
+  --badge-default-subtle-bg-color: #EDEDED;
+  --badge-default-subtle-text-color: #3D3D3D;
+
+  --badge-default-filled-bg-color: #737373;
+  --badge-default-filled-text-color: #FFFFFF;
+
+  --badge-info-outline-border-color: #598BF7;
+  --badge-info-outline-text-color: #0D55F2;
+
+  --badge-info-subtle-bg-color: #DDE7FD;
+  --badge-info-subtle-text-color: #0D55F2;
+
+  --badge-info-filled-bg-color: #2465F5;
+  --badge-info-filled-text-color: #FFFFFF;
+
+  --badge-error-outline-border-color: #C24430;
+  --badge-error-outline-text-color: #B8402E;
+
+  --badge-error-subtle-bg-color: #F8E7E4;
+  --badge-error-subtle-text-color: #B8402E;
+
+  --badge-success-outline-border-color: #58A02C;
+  --badge-success-outline-text-color: #3E701F;
+
+  --badge-success-subtle-bg-color: #E2F4D7;
+  --badge-success-subtle-text-color: #3E701F;
+
+  --badge-warning-outline-border-color: #E6A714;
+  --badge-warning-outline-text-color: #946800;
+
+  --badge-warning-subtle-bg-color: #FDF5E2;
+  --badge-warning-subtle-text-color: #946800;
+}
+
+.t-badge {
+  align-items: center;
+  background-color: transparent;
+  border-radius: var(--badge-size-md);
+  border: 1px solid var(--badge-default-outline-border-color);
+  box-sizing: border-box;
+  color: var(--badge-default-outline-text-color);
+  display: inline-flex;
+  font-family: system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: var(--badge-md-font-size);
+  height: var(--badge-size-md);
+  line-height: 1.4;
+  padding-left: var(--badge-md-x-padding);
+  padding-right: var(--badge-md-x-padding);
+}
+
+.t-badge--sm {
+  border-radius: var(--badge-size-md);
+  font-size: var(--badge-sm-font-size);
+  height: var(--badge-size-sm);
+  padding-left: var(--badge-sm-x-padding);
+  padding-right: var(--badge-sm-x-padding);
+}
+
+.t-badge--xs {
+  border-radius: var(--badge-size-xs);
+  font-size: var(--badge-xs-font-size);
+  height: var(--badge-size-xs);
+  padding-left: var(--badge-xs-x-padding);
+  padding-right: var(--badge-xs-x-padding);
+}
+
+.t-badge--outline {
+  background-color: transparent;
+}
+
+.t-badge--filled,
+.t-badge--subtle {
+  border-color: transparent;
+}
+
+.t-badge--subtle {
+  background-color: var(--badge-default-subtle-bg-color);
+  color: var(--badge-default-subtle-text-color);
+}
+
+.t-badge--filled {
+  background-color: var(--badge-default-filled-bg-color);
+  color: var(--badge-default-filled-text-color);
+}
+
+.t-badge--outline.t-badge--info {
+  border-color: var(--badge-info-outline-bg-color);
+  color: var(--badge-info-outline-text-color);
+}
+
+.t-badge--subtle.t-badge--info {
+  background-color: var(--badge-info-subtle-bg-color);
+  color: var(--badge-info-subtle-text-color);
+}
+
+.t-badge--filled.t-badge--info {
+  background-color: var(--badge-info-filled-bg-color);
+  color: var(--badge-info-filled-text-color);
+}
+
+.t-badge--outline.t-badge--error {
+  border-color: var(--badge-error-outline-bg-color);
+  color: var(--badge-error-outline-text-color);
+}
+
+.t-badge--subtle.t-badge--error {
+  background-color: var(--badge-error-subtle-bg-color);
+  color: var(--badge-error-subtle-text-color);
+}
+
+.t-badge--outline.t-badge--success {
+  border-color: var(--badge-success-outline-bg-color);
+  color: var(--badge-success-outline-text-color);
+}
+
+.t-badge--subtle.t-badge--success {
+  background-color: var(--badge-success-subtle-bg-color);
+  color: var(--badge-success-subtle-text-color);
+}
+
+.t-badge--outline.t-badge--warning {
+  border-color: var(--badge-warning-outline-bg-color);
+  color: var(--badge-warning-outline-text-color);
+}
+
+.t-badge--subtle.t-badge--warning {
+  background-color: var(--badge-warning-subtle-bg-color);
+  color: var(--badge-warning-subtle-text-color);
+}
