@@ -16,7 +16,7 @@ const preview = {
     },
     interactions: {
       showPanel: false
-    }
+    },
   },
 };
 
