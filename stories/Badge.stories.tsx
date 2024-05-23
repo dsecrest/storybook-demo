@@ -10,7 +10,6 @@ const meta: Meta<typeof Badge> = {
     actions: { disable: true },
     interactions: { disable: true },
   },
-  tags: ['autodocs'],
 }
 
 export default meta

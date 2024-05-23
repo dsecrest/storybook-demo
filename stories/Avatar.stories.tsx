@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { Canvas } from '@storybook/blocks';
 import { Avatar } from "./Avatar"
 
 type Story = StoryObj<typeof Avatar>
@@ -11,7 +10,6 @@ const meta: Meta<typeof Avatar> = {
     actions: { disable: true },
     interactions: { disable: true },
   },
-  tags: ['autodocs'],
 }
 
 export default meta

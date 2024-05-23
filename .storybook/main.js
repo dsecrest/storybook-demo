@@ -7,10 +7,9 @@ const config = {
   addons: [
     "@storybook/addon-onboarding",
     "@storybook/addon-links",
+    "@storybook/addon-essentials",
     // "@chromatic-com/storybook",
     // "@storybook/addon-interactions",
-    "@storybook/addon-docs",
-    "@storybook/addon-essentials",
     "@whitespace/storybook-addon-html",
     '@storybook/addon-a11y',
   ],
