@@ -10,6 +10,7 @@ const meta: Meta<typeof Avatar> = {
     actions: { disable: true },
     interactions: { disable: true },
   },
+  tags: ['autodocs'],
 }
 
 export default meta
